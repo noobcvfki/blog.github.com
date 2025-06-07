@@ -12,13 +12,13 @@ export const siteConfig: SiteConfig = {
 	subtitle: "Demo Site",
 	lang: "zh_CN", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
-		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
-		fixed: false, // Hide the theme color picker for visitors
+		hue: 250, // 主题颜色的默认色调，从 0 到 360。例如，红色：0, 青色：200, 青色：250, 粉色：345。
+		fixed: false, // 为访客隐藏主题颜色选择器
 	},
 	banner: {
 		enable: false,
-		src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+		src: "assets/images/demo-banner.png", // 相对于 /src 目录。如果以 “/” 开头，则相对于 /public 目录。
+		position: "center", // 等效于对象位置，仅支持 “top”、“center” 和 “bottom”。默认为 “center”
 		credit: {
 			enable: false, // Display the credit text of the banner image
 			text: "", // Credit text to be displayed
@@ -53,26 +53,26 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Lorem Ipsum",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	avatar: "/assets/images/头像.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "祈崎",
+	bio: "啥都会，但是啥都学不精细的网友\n好想摸鱼，好想睡懒觉",
 	links: [
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
+			name: "bilibili",
+			icon: "assets/images/bilibili.svg", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
+			url: "https://space.bilibili.com/494737523",
 		},
 		{
 			name: "Steam",
 			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
+			url: "https://steamcommunity.com/id/baituzi233/",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			url: "https://github.com/noobcvfki",
 		},
 	],
 };
