@@ -53,13 +53,13 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "/assets/images/头像.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/头像.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "祈崎",
 	bio: "啥都会，但是啥都学不精细的网友\n好想摸鱼，好想睡懒觉",
 	links: [
 		{
 			name: "bilibili",
-			icon: "assets/images/bilibili.svg", // Visit https://icones.js.org/ for icon codes
+			icon: "fa6-brands:bilibili", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
 			url: "https://space.bilibili.com/494737523",
