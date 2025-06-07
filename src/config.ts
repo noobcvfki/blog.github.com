@@ -18,7 +18,7 @@ export const siteConfig: SiteConfig = {
 	banner: {
 		enable: true,
 		src: "assets/images/demo-banner.png", // 相对于 /src 目录。如果以 “/” 开头，则相对于 /public 目录。
-		position: "center", // 等效于对象位置，仅支持 “top”、“center” 和 “bottom”。默认为 “center”
+		position: "top", // 等效于对象位置，仅支持 “top”、“center” 和 “bottom”。默认为 “center”
 		credit: {
 			enable: true, // Display the credit text of the banner image
 			text: "", // Credit text to be displayed
