@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Fuwari",
-	subtitle: "Demo Site",
+	title: "ASKiQ 的空间",
+	subtitle: "爱好广泛的网友",
 	lang: "zh_CN", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
 		hue: 250, // 主题颜色的默认色调，从 0 到 360。例如，红色：0, 青色：200, 青色：250, 粉色：345。
@@ -18,7 +18,7 @@ export const siteConfig: SiteConfig = {
 	banner: {
 		enable: true,
 		src: "assets/images/demo-banner.png", // 相对于 /src 目录。如果以 “/” 开头，则相对于 /public 目录。
-		position: "top", // 等效于对象位置，仅支持 “top”、“center” 和 “bottom”。默认为 “center”
+		position: "center", // 等效于对象位置，仅支持 “top”、“center” 和 “bottom”。默认为 “center”
 		credit: {
 			enable: true, // Display the credit text of the banner image
 			text: "", // Credit text to be displayed
@@ -30,7 +30,7 @@ export const siteConfig: SiteConfig = {
 		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
 	},
 	favicon: [
-		// Leave this array empty to use the default favicon
+		// // Leave this array empty to use the default favicon
 		// {
 		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
 		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
@@ -46,7 +46,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About,
 		{
 			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
+			url: "https://github.com/noobcvfki/blog.github.com", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
