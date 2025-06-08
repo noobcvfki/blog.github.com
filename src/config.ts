@@ -17,12 +17,12 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/demo-banner.png", // 相对于 /src 目录。如果以 “/” 开头，则相对于 /public 目录。
+		src: "assets/images/理想的创作角色-Dity Pretty.png", // 相对于 /src 目录。如果以 “/” 开头，则相对于 /public 目录。
 		position: "center", // 等效于对象位置，仅支持 “top”、“center” 和 “bottom”。默认为 “center”
 		credit: {
 			enable: true, // Display the credit text of the banner image
-			text: "", // Credit text to be displayed
-			url: "", // (Optional) URL link to the original artwork or artist's page
+			text: "理想的な作動角 | Dity Pretty #pixiv", // Credit text to be displayed
+			url: "https://www.pixiv.net/artworks/111639598", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
@@ -30,12 +30,12 @@ export const siteConfig: SiteConfig = {
 		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
 	},
 	favicon: [
-		// // Leave this array empty to use the default favicon
-		// {
-		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		// }
+		// Leave this array empty to use the default favicon
+		{
+		  src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
+		  theme: 'dark',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+		  sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		}
 	],
 };
 
