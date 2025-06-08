@@ -1,84 +1,85 @@
 ---
-title: Markdown Extended Features
+title: Markdown扩展功能
 published: 2024-05-01
 updated: 2024-11-29
-description: 'Read more about Markdown features in Fuwari'
+description: 'Markdown扩展功能“阅读更多关于Fuwari中的Markdown功能'
 image: ''
-tags: [Demo, Example, Markdown, Fuwari]
-category: 'Examples'
+tags: [演示，示例，Markdown，Fuwari]
+category: '示例'
 draft: false 
 ---
 
-## GitHub Repository Cards
-You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API. 
+## GitHub 仓库卡片
+
+你可以添加动态的、链接到 GitHub 仓库的卡片。在页面加载时，这些仓库的信息会通过 GitHub API 自动获取并展示。
 
 ::github{repo="Fabrizz/MMM-OnSpotify"}
 
-Create a GitHub repository card with the code `::github{repo="<owner>/<repo>"}`.
+使用代码创建GitHub存储库卡 `::github{repo="<owner>/<repo>"}`.
 
 ```markdown
 ::github{repo="saicaca/fuwari"}
 ```
 
-## Admonitions
+## 注释块（Admonitions）
 
-Following types of admonitions are supported: `note` `tip` `important` `warning` `caution`
+支持以下类型的注释块：`note`（提示）、`tip`（技巧）、`important`（重要）、`warning`（警告）、`caution`（注意）。
 
 :::note
-Highlights information that users should take into account, even when skimming.
+突出显示用户即使快速浏览时也应留意的信息。
 :::
 
 :::tip
-Optional information to help a user be more successful.
+可选信息，帮助用户更高效地完成操作。
 :::
 
 :::important
-Crucial information necessary for users to succeed.
+用户成功操作所必需的重要信息。
 :::
 
 :::warning
-Critical content demanding immediate user attention due to potential risks.
+由于存在潜在风险，需要用户立即注意的重要内容。
 :::
 
 :::caution
-Negative potential consequences of an action.
+某项操作可能带来的负面后果。
 :::
 
-### Basic Syntax
+### 基本语法
 
 ```markdown
 :::note
-Highlights information that users should take into account, even when skimming.
+突出显示用户即使快速浏览时也应留意的信息。
 :::
 
 :::tip
-Optional information to help a user be more successful.
+可选信息，帮助用户更高效地完成操作。
 :::
 ```
 
-### Custom Titles
+### 自定义标题
 
-The title of the admonition can be customized.
+注释块的标题可以自定义。
 
-:::note[MY CUSTOM TITLE]
-This is a note with a custom title.
+:::note[我的自定义标题]
+这是一个带有自定义标题的提示。
 :::
 
 ```markdown
-:::note[MY CUSTOM TITLE]
-This is a note with a custom title.
+:::note[我的自定义标题]
+这是一个带有自定义标题的提示。
 :::
 ```
 
-### GitHub Syntax
+### GitHub 风格语法
 
 > [!TIP]
-> [The GitHub syntax](https://github.com/orgs/community/discussions/16925) is also supported.
+> [GitHub 风格的注释块语法](https://github.com/orgs/community/discussions/16925) 也同样受到支持。
 
 ```
 > [!NOTE]
-> The GitHub syntax is also supported.
+> GitHub语法也受支持。
 
 > [!TIP]
-> The GitHub syntax is also supported.
+> GitHub语法也受支持。
 ```
