@@ -28,8 +28,8 @@ import vercel from "@astrojs/vercel";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://capting0v0.xyz/",
-  base: "/docs",
+  site: "https://noobcvfki.github.io",
+  base: "/blog.github.com",
   trailingSlash: "always",
 
   integrations: [
