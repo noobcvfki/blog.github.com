@@ -8,7 +8,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "ASKiQ 的空间",
+	title: "capting的空间",
 	subtitle: "爱好广泛的网友",
 	lang: "zh_CN", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
@@ -55,7 +55,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/头像.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "祈崎",
-	bio: "啥都会，但是啥都学不精细的网友\n好想摸鱼，好想睡懒觉",
+	bio: "嵌入式MCU以及Arch Linux开发爱好者",
 	links: [
 		{
 			name: "bilibili",
