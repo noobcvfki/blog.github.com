@@ -4,7 +4,7 @@ published: 2024-04-10
 description: How code blocks look in Markdown using Expressive Code.
 tags: [Markdown, Blogging, Demo]
 category: Examples
-draft: false
+draft: true
 ---
 
 在这里，我们将探索使用 [Expressive Code](https://expressive-code.com/) 时代码块的显示效果。所提供的示例基于其官方文档，你可以在那里查阅更详细的信息。
